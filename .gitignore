@@ -1,0 +1,5 @@
+.env
+__pycache__/
+*.pyc
+viablecdmx.db
+rag/chroma_db/

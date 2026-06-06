@@ -1,0 +1,574 @@
+{
+  "Álvaro Obregón": {
+    "colonias": {
+      "Santa Fe": {
+        "competencia_base": 68,
+        "renta_m2": 620,
+        "uso_suelo": "comercial",
+        "afluencia": "alta",
+        "perfil": "corporativo/oficinas/shopping premium"
+      },
+      "San Ángel": {
+        "competencia_base": 65,
+        "renta_m2": 420,
+        "uso_suelo": "mixto",
+        "afluencia": "alta",
+        "perfil": "turístico/cultural/residencial premium"
+      },
+      "Lomas de Santa Fe": {
+        "competencia_base": 45,
+        "renta_m2": 520,
+        "uso_suelo": "habitacional",
+        "afluencia": "media",
+        "perfil": "residencial alto/ejecutivo"
+      },
+      "Olivar del Conde": {
+        "competencia_base": 38,
+        "renta_m2": 180,
+        "uso_suelo": "habitacional",
+        "afluencia": "media",
+        "perfil": "clase media/familiar"
+      },
+      "Tlacopac": {
+        "competencia_base": 35,
+        "renta_m2": 200,
+        "uso_suelo": "habitacional",
+        "afluencia": "media",
+        "perfil": "residencial/tranquilo"
+      }
+    }
+  },
+  "Azcapotzalco": {
+    "colonias": {
+      "Industrial Vallejo": {
+        "competencia_base": 42,
+        "renta_m2": 160,
+        "uso_suelo": "industrial",
+        "afluencia": "media",
+        "perfil": "industrial/comercio mayoreo"
+      },
+      "Del Gas": {
+        "competencia_base": 40,
+        "renta_m2": 130,
+        "uso_suelo": "habitacional",
+        "afluencia": "media",
+        "perfil": "obrero/clase media baja"
+      },
+      "Aguilera": {
+        "competencia_base": 45,
+        "renta_m2": 145,
+        "uso_suelo": "mixto",
+        "afluencia": "media",
+        "perfil": "popular/comercio local"
+      },
+      "Tránsito": {
+        "competencia_base": 38,
+        "renta_m2": 120,
+        "uso_suelo": "habitacional",
+        "afluencia": "baja",
+        "perfil": "residencial/tranquilo"
+      }
+    }
+  },
+  "Benito Juárez": {
+    "colonias": {
+      "Del Valle": {
+        "competencia_base": 78,
+        "renta_m2": 560,
+        "uso_suelo": "mixto",
+        "afluencia": "alta",
+        "perfil": "clase media alta/jóvenes profesionistas/gastronómico"
+      },
+      "Narvarte Poniente": {
+        "competencia_base": 75,
+        "renta_m2": 520,
+        "uso_suelo": "mixto",
+        "afluencia": "alta",
+        "perfil": "hipster/millennials/gastronómico emergente"
+      },
+      "Narvarte Oriente": {
+        "competencia_base": 72,
+        "renta_m2": 490,
+        "uso_suelo": "mixto",
+        "afluencia": "alta",
+        "perfil": "residencial premium/restaurantes/cafés"
+      },
+      "Portales": {
+        "competencia_base": 60,
+        "renta_m2": 290,
+        "uso_suelo": "mixto",
+        "afluencia": "alta",
+        "perfil": "popular/familiar/comercio denso"
+      },
+      "Insurgentes Sur": {
+        "competencia_base": 80,
+        "renta_m2": 680,
+        "uso_suelo": "comercial",
+        "afluencia": "muy_alta",
+        "perfil": "corporativo/alta densidad peatonal/turístico"
+      },
+      "Letrán Valle": {
+        "competencia_base": 58,
+        "renta_m2": 340,
+        "uso_suelo": "mixto",
+        "afluencia": "alta",
+        "perfil": "residencial/servicios/café cultura"
+      }
+    }
+  },
+  "Coyoacán": {
+    "colonias": {
+      "Del Carmen": {
+        "competencia_base": 70,
+        "renta_m2": 420,
+        "uso_suelo": "mixto",
+        "afluencia": "alta",
+        "perfil": "bohemio/artístico/turístico/universitario"
+      },
+      "Villa Coyoacán": {
+        "competencia_base": 68,
+        "renta_m2": 400,
+        "uso_suelo": "mixto",
+        "afluencia": "alta",
+        "perfil": "turístico/gastronómico/mercado local"
+      },
+      "Pedregal de Santo Domingo": {
+        "competencia_base": 40,
+        "renta_m2": 160,
+        "uso_suelo": "habitacional",
+        "afluencia": "media",
+        "perfil": "popular/vecinal/comercio básico"
+      },
+      "Copilco el Alto": {
+        "competencia_base": 52,
+        "renta_m2": 280,
+        "uso_suelo": "mixto",
+        "afluencia": "alta",
+        "perfil": "universitario/UNAM/estudiantes"
+      },
+      "Churubusco": {
+        "competencia_base": 45,
+        "renta_m2": 310,
+        "uso_suelo": "mixto",
+        "afluencia": "media",
+        "perfil": "residencial/clase media"
+      }
+    }
+  },
+  "Cuajimalpa": {
+    "colonias": {
+      "Cuajimalpa Centro": {
+        "competencia_base": 35,
+        "renta_m2": 210,
+        "uso_suelo": "mixto",
+        "afluencia": "media",
+        "perfil": "pueblo mágico/artesanal/turismo local"
+      },
+      "Contadero": {
+        "competencia_base": 30,
+        "renta_m2": 200,
+        "uso_suelo": "habitacional",
+        "afluencia": "media",
+        "perfil": "residencial/clase media alta"
+      },
+      "Bosques de las Lomas": {
+        "competencia_base": 38,
+        "renta_m2": 480,
+        "uso_suelo": "habitacional",
+        "afluencia": "media",
+        "perfil": "residencial premium/ejecutivo"
+      }
+    }
+  },
+  "Cuauhtémoc": {
+    "colonias": {
+      "Roma Norte": {
+        "competencia_base": 88,
+        "renta_m2": 680,
+        "uso_suelo": "mixto",
+        "afluencia": "muy_alta",
+        "perfil": "hipster/millennial/turístico/gastronómico top"
+      },
+      "Roma Sur": {
+        "competencia_base": 80,
+        "renta_m2": 580,
+        "uso_suelo": "mixto",
+        "afluencia": "alta",
+        "perfil": "bohemio/cafés/restaurantes/noche"
+      },
+      "Condesa": {
+        "competencia_base": 85,
+        "renta_m2": 720,
+        "uso_suelo": "mixto",
+        "afluencia": "muy_alta",
+        "perfil": "premium/expatriados/turistas/nightlife"
+      },
+      "Centro Histórico": {
+        "competencia_base": 75,
+        "renta_m2": 350,
+        "uso_suelo": "comercial",
+        "afluencia": "muy_alta",
+        "perfil": "turístico/comercio masivo/patrimonial"
+      },
+      "Santa María la Ribera": {
+        "competencia_base": 60,
+        "renta_m2": 320,
+        "uso_suelo": "mixto",
+        "afluencia": "alta",
+        "perfil": "bohemio emergente/kiosco/familias"
+      },
+      "Doctores": {
+        "competencia_base": 55,
+        "renta_m2": 220,
+        "uso_suelo": "mixto",
+        "afluencia": "alta",
+        "perfil": "popular/comercio/servicios médicos"
+      },
+      "Guerrero": {
+        "competencia_base": 50,
+        "renta_m2": 200,
+        "uso_suelo": "mixto",
+        "afluencia": "alta",
+        "perfil": "popular/mercados/comercio tradicional"
+      },
+      "Tepito": {
+        "competencia_base": 65,
+        "renta_m2": 170,
+        "uso_suelo": "comercial",
+        "afluencia": "muy_alta",
+        "perfil": "comercio popular/mayoreo/barrio bravo"
+      }
+    }
+  },
+  "Gustavo A. Madero": {
+    "colonias": {
+      "Lindavista": {
+        "competencia_base": 55,
+        "renta_m2": 210,
+        "uso_suelo": "mixto",
+        "afluencia": "alta",
+        "perfil": "clase media/familiar/servicios"
+      },
+      "La Raza": {
+        "competencia_base": 48,
+        "renta_m2": 160,
+        "uso_suelo": "mixto",
+        "afluencia": "alta",
+        "perfil": "popular/estudiantil/servicios básicos"
+      },
+      "Martín Carrera": {
+        "competencia_base": 35,
+        "renta_m2": 110,
+        "uso_suelo": "habitacional",
+        "afluencia": "media",
+        "perfil": "popular/obrero/comercio local"
+      },
+      "Tepeyac Insurgentes": {
+        "competencia_base": 42,
+        "renta_m2": 130,
+        "uso_suelo": "habitacional",
+        "afluencia": "media",
+        "perfil": "vecinal/religioso/turismo doméstico"
+      }
+    }
+  },
+  "Iztacalco": {
+    "colonias": {
+      "Agrícola Oriental": {
+        "competencia_base": 45,
+        "renta_m2": 140,
+        "uso_suelo": "habitacional",
+        "afluencia": "media",
+        "perfil": "popular/familiar/comercio vecinal"
+      },
+      "Pantitlán": {
+        "competencia_base": 58,
+        "renta_m2": 165,
+        "uso_suelo": "mixto",
+        "afluencia": "alta",
+        "perfil": "transporte/mercado/comercio masivo"
+      },
+      "Jardín Balbuena": {
+        "competencia_base": 40,
+        "renta_m2": 150,
+        "uso_suelo": "habitacional",
+        "afluencia": "media",
+        "perfil": "vecinal/clase media baja"
+      }
+    }
+  },
+  "Iztapalapa": {
+    "colonias": {
+      "Centro de Iztapalapa": {
+        "competencia_base": 55,
+        "renta_m2": 135,
+        "uso_suelo": "mixto",
+        "afluencia": "alta",
+        "perfil": "popular/mercado local/alta densidad"
+      },
+      "Jardines de Cerro Gordo": {
+        "competencia_base": 30,
+        "renta_m2": 105,
+        "uso_suelo": "habitacional",
+        "afluencia": "media",
+        "perfil": "vecinal/popular"
+      },
+      "Santa Cruz Meyehualco": {
+        "competencia_base": 32,
+        "renta_m2": 100,
+        "uso_suelo": "habitacional",
+        "afluencia": "media",
+        "perfil": "popular/familiar"
+      },
+      "Desarrollo Urbano Quetzalcóatl": {
+        "competencia_base": 28,
+        "renta_m2": 95,
+        "uso_suelo": "habitacional",
+        "afluencia": "baja",
+        "perfil": "popular/periférico"
+      }
+    }
+  },
+  "La Magdalena Contreras": {
+    "colonias": {
+      "La Magdalena Contreras": {
+        "competencia_base": 30,
+        "renta_m2": 150,
+        "uso_suelo": "mixto",
+        "afluencia": "media",
+        "perfil": "pueblo/artesanal/tranquilo"
+      },
+      "Los Padres": {
+        "competencia_base": 22,
+        "renta_m2": 130,
+        "uso_suelo": "habitacional",
+        "afluencia": "baja",
+        "perfil": "residencial/clase media"
+      },
+      "Barranca Seca": {
+        "competencia_base": 18,
+        "renta_m2": 120,
+        "uso_suelo": "habitacional",
+        "afluencia": "baja",
+        "perfil": "periférico/tranquilo"
+      }
+    }
+  },
+  "Miguel Hidalgo": {
+    "colonias": {
+      "Polanco": {
+        "competencia_base": 90,
+        "renta_m2": 780,
+        "uso_suelo": "comercial",
+        "afluencia": "muy_alta",
+        "perfil": "lujo/premium/expatriados/turismo de alto poder"
+      },
+      "Lomas de Chapultepec": {
+        "competencia_base": 45,
+        "renta_m2": 600,
+        "uso_suelo": "habitacional",
+        "afluencia": "media",
+        "perfil": "residencial premium/ejecutivo senior"
+      },
+      "Anzures": {
+        "competencia_base": 62,
+        "renta_m2": 440,
+        "uso_suelo": "mixto",
+        "afluencia": "alta",
+        "perfil": "clase media alta/oficinas/restaurantes"
+      },
+      "Tacuba": {
+        "competencia_base": 50,
+        "renta_m2": 220,
+        "uso_suelo": "mixto",
+        "afluencia": "alta",
+        "perfil": "popular/histórico/comercio"
+      },
+      "San Miguel Chapultepec": {
+        "competencia_base": 55,
+        "renta_m2": 380,
+        "uso_suelo": "mixto",
+        "afluencia": "alta",
+        "perfil": "galerías/arte/bohemio premium"
+      },
+      "Irrigación": {
+        "competencia_base": 42,
+        "renta_m2": 300,
+        "uso_suelo": "habitacional",
+        "afluencia": "media",
+        "perfil": "residencial/familiar/clase media"
+      }
+    }
+  },
+  "Milpa Alta": {
+    "colonias": {
+      "Milpa Alta": {
+        "competencia_base": 20,
+        "renta_m2": 85,
+        "uso_suelo": "habitacional",
+        "afluencia": "baja",
+        "perfil": "rural/agrícola/turismo ecológico/nopal"
+      },
+      "San Pablo Oztotepec": {
+        "competencia_base": 12,
+        "renta_m2": 70,
+        "uso_suelo": "habitacional",
+        "afluencia": "baja",
+        "perfil": "pueblo/artesanal/tranquilo"
+      },
+      "Villa Milpa Alta": {
+        "competencia_base": 18,
+        "renta_m2": 80,
+        "uso_suelo": "mixto",
+        "afluencia": "baja",
+        "perfil": "comercio local/mercado/artesanías"
+      }
+    }
+  },
+  "Tláhuac": {
+    "colonias": {
+      "Tláhuac": {
+        "competencia_base": 28,
+        "renta_m2": 100,
+        "uso_suelo": "mixto",
+        "afluencia": "media",
+        "perfil": "pueblo lacustre/mercado/comercio local"
+      },
+      "San Francisco Tlaltenco": {
+        "competencia_base": 20,
+        "renta_m2": 90,
+        "uso_suelo": "habitacional",
+        "afluencia": "baja",
+        "perfil": "popular/periférico/vecinal"
+      },
+      "Zapotitlán": {
+        "competencia_base": 18,
+        "renta_m2": 85,
+        "uso_suelo": "habitacional",
+        "afluencia": "baja",
+        "perfil": "popular/residencial"
+      }
+    }
+  },
+  "Tlalpan": {
+    "colonias": {
+      "Tlalpan Centro": {
+        "competencia_base": 48,
+        "renta_m2": 260,
+        "uso_suelo": "mixto",
+        "afluencia": "alta",
+        "perfil": "histórico/turístico/pueblo mágico/gastronómico"
+      },
+      "Pedregal de San Ángel": {
+        "competencia_base": 35,
+        "renta_m2": 300,
+        "uso_suelo": "habitacional",
+        "afluencia": "media",
+        "perfil": "residencial premium/UNAM/académico"
+      },
+      "Fuentes del Pedregal": {
+        "competencia_base": 30,
+        "renta_m2": 280,
+        "uso_suelo": "habitacional",
+        "afluencia": "media",
+        "perfil": "residencial/clase media alta"
+      },
+      "Isidro Fabela": {
+        "competencia_base": 22,
+        "renta_m2": 180,
+        "uso_suelo": "habitacional",
+        "afluencia": "baja",
+        "perfil": "popular/periférico"
+      }
+    }
+  },
+  "Venustiano Carranza": {
+    "colonias": {
+      "Merced Balbuena": {
+        "competencia_base": 70,
+        "renta_m2": 190,
+        "uso_suelo": "comercial",
+        "afluencia": "muy_alta",
+        "perfil": "mercado mayoreo/comercio masivo/turístico"
+      },
+      "Aeropuerto": {
+        "competencia_base": 55,
+        "renta_m2": 220,
+        "uso_suelo": "comercial",
+        "afluencia": "alta",
+        "perfil": "aeropuerto/servicios/hoteles"
+      },
+      "Jardín Balbuena": {
+        "competencia_base": 42,
+        "renta_m2": 160,
+        "uso_suelo": "habitacional",
+        "afluencia": "media",
+        "perfil": "vecinal/familiar/clase media"
+      },
+      "Pensil": {
+        "competencia_base": 35,
+        "renta_m2": 150,
+        "uso_suelo": "habitacional",
+        "afluencia": "media",
+        "perfil": "popular/obrero/servicios básicos"
+      }
+    }
+  },
+  "Xochimilco": {
+    "colonias": {
+      "Xochimilco Centro": {
+        "competencia_base": 52,
+        "renta_m2": 200,
+        "uso_suelo": "mixto",
+        "afluencia": "alta",
+        "perfil": "turístico/lacustre/artesanías/trajineras"
+      },
+      "Santa Cruz Acalpixca": {
+        "competencia_base": 25,
+        "renta_m2": 120,
+        "uso_suelo": "habitacional",
+        "afluencia": "baja",
+        "perfil": "rural/comunidad indígena/artesanal"
+      },
+      "San Gregorio Atlapulco": {
+        "competencia_base": 22,
+        "renta_m2": 110,
+        "uso_suelo": "habitacional",
+        "afluencia": "baja",
+        "perfil": "agrícola/chinampas/turismo ecológico"
+      },
+      "Barrio 18": {
+        "competencia_base": 30,
+        "renta_m2": 130,
+        "uso_suelo": "mixto",
+        "afluencia": "media",
+        "perfil": "popular/servicios/vecinal"
+      }
+    }
+  },
+  "_meta": {
+    "renta_m2_promedio_cdmx": 280,
+    "fuente": "Estimados basados en mercado inmobiliario CDMX 2024",
+    "competencia_por_scian": {
+      "722511": {"colonia_promedio": 5, "alcaldia_promedio": 80},
+      "722515": {"colonia_promedio": 3, "alcaldia_promedio": 50},
+      "461110": {"colonia_promedio": 8, "alcaldia_promedio": 120},
+      "812110": {"colonia_promedio": 4, "alcaldia_promedio": 60},
+      "713940": {"colonia_promedio": 2, "alcaldia_promedio": 25},
+      "722412": {"colonia_promedio": 3, "alcaldia_promedio": 45},
+      "721111": {"colonia_promedio": 1, "alcaldia_promedio": 15},
+      "722320": {"colonia_promedio": 2, "alcaldia_promedio": 20},
+      "722514": {"colonia_promedio": 6, "alcaldia_promedio": 90},
+      "453210": {"colonia_promedio": 3, "alcaldia_promedio": 40},
+      "453110": {"colonia_promedio": 2, "alcaldia_promedio": 30},
+      "713120": {"colonia_promedio": 2, "alcaldia_promedio": 20},
+      "713910": {"colonia_promedio": 1, "alcaldia_promedio": 10},
+      "512131": {"colonia_promedio": 0, "alcaldia_promedio": 3},
+      "812310": {"colonia_promedio": 2, "alcaldia_promedio": 35},
+      "464111": {"colonia_promedio": 4, "alcaldia_promedio": 65},
+      "311830": {"colonia_promedio": 5, "alcaldia_promedio": 70},
+      "461130": {"colonia_promedio": 3, "alcaldia_promedio": 55},
+      "541940": {"colonia_promedio": 2, "alcaldia_promedio": 28}
+    }
+  }
+}

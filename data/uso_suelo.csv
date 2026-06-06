@@ -1,0 +1,70 @@
+alcaldia,colonia,zona_tipo,permite_bajo,permite_vecinal,permite_zonal
+Cuauhtémoc,Roma Norte,mixto,true,true,false
+Cuauhtémoc,Condesa,mixto,true,true,false
+Cuauhtémoc,Roma Sur,mixto,true,true,false
+Cuauhtémoc,Centro Histórico,comercial,true,true,true
+Cuauhtémoc,Tepito,comercial,true,true,true
+Cuauhtémoc,Santa María la Ribera,mixto,true,true,false
+Cuauhtémoc,Doctores,mixto,true,true,false
+Cuauhtémoc,Guerrero,mixto,true,true,false
+Miguel Hidalgo,Polanco,comercial,true,true,true
+Miguel Hidalgo,Lomas de Chapultepec,habitacional,true,false,false
+Miguel Hidalgo,Anzures,mixto,true,true,false
+Miguel Hidalgo,San Miguel Chapultepec,mixto,true,true,false
+Miguel Hidalgo,Tacuba,mixto,true,true,false
+Miguel Hidalgo,Irrigación,habitacional,true,false,false
+Benito Juárez,Del Valle,mixto,true,true,false
+Benito Juárez,Narvarte Poniente,mixto,true,true,false
+Benito Juárez,Narvarte Oriente,mixto,true,true,false
+Benito Juárez,Portales,mixto,true,true,false
+Benito Juárez,Insurgentes Sur,comercial,true,true,true
+Benito Juárez,Letrán Valle,mixto,true,true,false
+Coyoacán,Del Carmen,mixto,true,true,false
+Coyoacán,Villa Coyoacán,mixto,true,true,false
+Coyoacán,Pedregal de Santo Domingo,habitacional,true,false,false
+Coyoacán,Copilco el Alto,mixto,true,true,false
+Coyoacán,Churubusco,mixto,true,true,false
+Álvaro Obregón,Santa Fe,comercial,true,true,true
+Álvaro Obregón,San Ángel,mixto,true,true,false
+Álvaro Obregón,Lomas de Santa Fe,habitacional,true,false,false
+Álvaro Obregón,Olivar del Conde,habitacional,true,false,false
+Álvaro Obregón,Tlacopac,habitacional,true,false,false
+Azcapotzalco,Industrial Vallejo,industrial,true,true,true
+Azcapotzalco,Del Gas,habitacional,true,false,false
+Azcapotzalco,Aguilera,mixto,true,true,false
+Azcapotzalco,Tránsito,habitacional,true,false,false
+Iztapalapa,Centro de Iztapalapa,mixto,true,true,false
+Iztapalapa,Jardines de Cerro Gordo,habitacional,true,false,false
+Iztapalapa,Santa Cruz Meyehualco,habitacional,true,false,false
+Iztapalapa,Desarrollo Urbano Quetzalcóatl,habitacional,true,false,false
+Gustavo A. Madero,Lindavista,mixto,true,true,false
+Gustavo A. Madero,La Raza,mixto,true,true,false
+Gustavo A. Madero,Martín Carrera,habitacional,true,false,false
+Gustavo A. Madero,Tepeyac Insurgentes,habitacional,true,false,false
+Iztacalco,Agrícola Oriental,habitacional,true,false,false
+Iztacalco,Pantitlán,mixto,true,true,false
+Iztacalco,Jardín Balbuena,habitacional,true,false,false
+Tlalpan,Tlalpan Centro,mixto,true,true,false
+Tlalpan,Pedregal de San Ángel,habitacional,true,false,false
+Tlalpan,Fuentes del Pedregal,habitacional,true,false,false
+Tlalpan,Isidro Fabela,habitacional,true,false,false
+Xochimilco,Xochimilco Centro,mixto,true,true,false
+Xochimilco,Santa Cruz Acalpixca,habitacional,true,false,false
+Xochimilco,San Gregorio Atlapulco,habitacional,true,false,false
+Xochimilco,Barrio 18,mixto,true,true,false
+Venustiano Carranza,Merced Balbuena,comercial,true,true,true
+Venustiano Carranza,Aeropuerto,comercial,true,true,true
+Venustiano Carranza,Jardín Balbuena,habitacional,true,false,false
+Venustiano Carranza,Pensil,habitacional,true,false,false
+Tláhuac,Tláhuac,mixto,true,true,false
+Tláhuac,San Francisco Tlaltenco,habitacional,true,false,false
+Tláhuac,Zapotitlán,habitacional,true,false,false
+La Magdalena Contreras,La Magdalena Contreras,mixto,true,true,false
+La Magdalena Contreras,Los Padres,habitacional,true,false,false
+La Magdalena Contreras,Barranca Seca,habitacional,true,false,false
+Cuajimalpa,Cuajimalpa Centro,mixto,true,true,false
+Cuajimalpa,Contadero,habitacional,true,false,false
+Cuajimalpa,Bosques de las Lomas,habitacional,true,false,false
+Milpa Alta,Milpa Alta,habitacional,true,false,false
+Milpa Alta,San Pablo Oztotepec,habitacional,true,false,false
+Milpa Alta,Villa Milpa Alta,mixto,true,true,false

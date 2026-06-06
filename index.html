@@ -301,12 +301,12 @@
             </select>
         </div>
         <div class="col-md-3">
-            <label class="form-label fw-semibold"><i class="bi bi-cash-stack"></i> Inversión estimada (MXN)</label>
-            <input type="number" class="form-control" id="inversion" value="350000">
+            <label class="form-label fw-semibold"><i class="bi bi-receipt"></i> Venta mensual estimada (MXN)</label>
+            <input type="number" class="form-control" id="ventaMensual" value="180000">
         </div>
         <div class="col-md-3">
-            <label class="form-label fw-semibold"><i class="bi bi-people"></i> Empleos a generar</label>
-            <input type="number" class="form-control" id="empleos" value="4">
+            <label class="form-label fw-semibold"><i class="bi bi-cash-stack"></i> Gastos fijos mensuales (MXN)</label>
+            <input type="number" class="form-control" id="gastosFijos" value="85000">
         </div>
     </div>
 
@@ -315,19 +315,19 @@
         <div class="col-md-3">
             <div class="card-gob card p-3 text-center">
                 <i class="bi bi-graph-up fs-2" style="color: var(--oro);"></i>
-                <h5 class="mt-2">Viabilidad general</h5>
+                <h5 class="mt-2">Rentabilidad estimada</h5>
                 <div class="metric-circle" id="viabilidadCircle">
                     <div class="metric-inner">
                         <span class="metric-value" id="viabilidadPorcentaje">78</span><span class="metric-value" style="font-size:1.2rem;">%</span>
                     </div>
                 </div>
-                <span class="status-badge bg-viable mt-2 d-inline-block" id="estadoTexto">VIABLE</span>
+                <span class="status-badge bg-viable mt-2 d-inline-block" id="estadoTexto">MARGEN SANO</span>
             </div>
         </div>
         <div class="col-md-3">
             <div class="card-gob card p-3 text-center">
                 <i class="bi bi-people-fill fs-2" style="color: var(--vino);"></i>
-                <h6 class="mt-2">Afluencia estimada</h6>
+                <h6 class="mt-2">Margen operativo</h6>
                 <h2 class="fw-bold text-dark" id="afluenciaVal">87</h2>
                 <small>/100 puntos</small>
                 <div class="progress mt-2" style="height: 6px;">
@@ -349,9 +349,9 @@
         <div class="col-md-3">
             <div class="card-gob card p-3 text-center">
                 <i class="bi bi-house-door fs-2" style="color: var(--vino);"></i>
-                <h6 class="mt-2">Renta estimada / mes</h6>
+                <h6 class="mt-2">Gastos fijos / mes</h6>
                 <h3 class="fw-bold text-dark" id="rentaEstimada">$24,500</h3>
-                <small>por 80 m² aprox.</small>
+                <small>renta + base operativa</small>
             </div>
         </div>
     </div>
@@ -361,7 +361,7 @@
         <div class="col-md-7">
             <div class="card-gob card">
                 <div class="card-header-gob">
-                    <i class="bi bi-bar-chart-steps"></i> Factores clave de éxito
+                    <i class="bi bi-bar-chart-steps"></i> Radar MVP: competencia, rentabilidad y gastos fijos
                 </div>
                 <div class="card-body">
                     <canvas id="radarChart" width="400" height="300" style="max-height: 300px; width: 100%;"></canvas>
@@ -510,30 +510,32 @@
     function actualizarDashboard() {
         const zona = document.getElementById("zonaSelect").value;
         const giro = document.getElementById("giroSelect").value;
-        const inversion = parseFloat(document.getElementById("inversion").value) || 0;
-        const empleos = parseInt(document.getElementById("empleos").value) || 1;
+        const ventaMensual = parseFloat(document.getElementById("ventaMensual").value) || 0;
+        const gastosFijosInput = parseFloat(document.getElementById("gastosFijos").value) || 0;
 
         const data = zonasData[zona] || zonasData["Polanco"];
         const afluencia = data.afluencia;
         const competencia = data.competencia;
         const renta = data.rentaBase + (giro.includes("Restaurante") ? 5000 : 0);
+        const gastosFijos = gastosFijosInput + renta;
+        const margenOperativo = ventaMensual > 0 ? Math.max(0, Math.min(100, ((ventaMensual - gastosFijos) / ventaMensual) * 100)) : 0;
+        const competenciaScore = Math.max(0, Math.min(100, 100 - competencia));
+        const gastosScore = ventaMensual > 0 ? Math.max(0, Math.min(100, 100 - ((gastosFijos / ventaMensual) * 100))) : 0;
         
-        document.getElementById("afluenciaVal").innerText = afluencia;
-        document.getElementById("afluenciaBar").style.width = afluencia + "%";
+        document.getElementById("afluenciaVal").innerText = Math.floor(margenOperativo);
+        document.getElementById("afluenciaBar").style.width = margenOperativo + "%";
         document.getElementById("competenciaVal").innerText = competencia;
         document.getElementById("competenciaBar").style.width = competencia + "%";
-        document.getElementById("rentaEstimada").innerText = "$" + renta.toLocaleString();
+        document.getElementById("rentaEstimada").innerText = "$" + gastosFijos.toLocaleString();
 
-        // Viabilidad fórmula personalizada
-        let viabilidad = (afluencia * 0.5) + ((100 - competencia) * 0.3) + (Math.min(inversion / 500000, 20)) + (empleos * 2);
-        viabilidad = Math.min(100, Math.max(20, viabilidad));
-        document.getElementById("viabilidadPorcentaje").innerText = Math.floor(viabilidad);
-        const circleDegree = (viabilidad / 100) * 360;
+        const rentabilidad = Math.max(0, Math.min(100, margenOperativo));
+        document.getElementById("viabilidadPorcentaje").innerText = Math.floor(rentabilidad);
+        const circleDegree = (rentabilidad / 100) * 360;
         document.querySelector(".metric-circle").style.background = `conic-gradient(var(--vino) 0deg, var(--vino) ${circleDegree}deg, #E9ECEF ${circleDegree}deg)`;
         
-        const estado = viabilidad >= 65 ? "VIABLE" : (viabilidad >= 45 ? "CON RIESGO" : "NO RECOMENDADO");
+        const estado = rentabilidad >= 35 ? "MARGEN SANO" : (rentabilidad >= 15 ? "MARGEN AJUSTADO" : "REVISAR COSTOS");
         document.getElementById("estadoTexto").innerHTML = estado;
-        document.getElementById("estadoTexto").className = `status-badge ${viabilidad>=65?'bg-viable':'bg-warning bg-opacity-25 text-dark'}`;
+        document.getElementById("estadoTexto").className = `status-badge ${rentabilidad>=35?'bg-viable':'bg-warning bg-opacity-25 text-dark'}`;
         
         // tiempo y costo trámites
         document.getElementById("tiempoTotal").innerText = Math.floor(Math.random() * (35-25+1) + 25);
@@ -541,20 +543,21 @@
         
         // recomendar texto dinámico
         let recomendacionesHtml = `<ul class="list-unstyled">
-            <li class="mb-2"><i class="bi bi-check-lg text-success"></i> ✅ Afluencia excelente (${afluencia}/100). Aprovecha temporada alta.</li>
-            <li class="mb-2"><i class="bi bi-check-lg text-success"></i> 📊 Competencia ${competencia}/100 - Estrategia de diferenciación clave.</li>
+            <li class="mb-2"><i class="bi bi-check-lg text-success"></i> Margen operativo estimado: ${Math.floor(margenOperativo)}/100.</li>
+            <li class="mb-2"><i class="bi bi-check-lg text-success"></i> Competencia ${competencia}/100 - Estrategia de diferenciación clave.</li>
+            <li class="mb-2"><i class="bi bi-check-lg text-success"></i> Gastos fijos estimados: $${gastosFijos.toLocaleString()} MXN mensuales.</li>
             <li class="mb-2"><i class="bi bi-check-lg text-success"></i> 🎓 Acceso al Fondo PyME CDMX para impulso digital.</li>
             <li class="mb-2"><i class="bi bi-check-lg text-success"></i> 🏛️ Uso de suelo: ${data.compatibilidad?"✔ Compatible": "❌ Revisar zonificación"} según SEDUVI.</li>
         </ul>`;
         document.getElementById("recomendacionesList").innerHTML = recomendacionesHtml;
         
         // Actualizar gráfica radar
-        const valoresRadar = [afluencia, 100-competencia, Math.min(inversion/8000, 100), empleos*12, 85];
+        const valoresRadar = [competenciaScore, rentabilidad, gastosScore];
         if (radarChartInstance) radarChartInstance.destroy();
         const ctx = document.getElementById('radarChart').getContext('2d');
         radarChartInstance = new Chart(ctx, {
             type: 'radar',
-            data: { labels: ["Afluencia","Baja competencia","Capacidad inversión","Generación empleos","Apoyo legal"], datasets: [{ label: 'Puntuación', data: valoresRadar, backgroundColor: 'rgba(139,30,63,0.2)', borderColor: '#8B1E3F', borderWidth: 2, pointBackgroundColor: '#D4AF37' }] },
+            data: { labels: ["Competencia","Rentabilidad","Gastos fijos"], datasets: [{ label: 'Puntuación', data: valoresRadar, backgroundColor: 'rgba(139,30,63,0.2)', borderColor: '#8B1E3F', borderWidth: 2, pointBackgroundColor: '#D4AF37' }] },
             options: { responsive: true, maintainAspectRatio: true, scales: { r: { beginAtZero: true, max: 100 } } }
         });
     }
@@ -566,8 +569,8 @@
     
     document.getElementById("zonaSelect").addEventListener("change", actualizarDashboard);
     document.getElementById("giroSelect").addEventListener("change", actualizarDashboard);
-    document.getElementById("inversion").addEventListener("input", actualizarDashboard);
-    document.getElementById("empleos").addEventListener("input", actualizarDashboard);
+    document.getElementById("ventaMensual").addEventListener("input", actualizarDashboard);
+    document.getElementById("gastosFijos").addEventListener("input", actualizarDashboard);
     actualizarDashboard();
 </script>
 </body>

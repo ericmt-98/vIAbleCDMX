@@ -1,0 +1,562 @@
+[
+  {
+    "id": 1,
+    "nombre": "Cafetería",
+    "scian": "722515",
+    "impacto": "bajo",
+    "formato_siapem": "EM-03",
+    "articulo_lem": "Art. 35",
+    "descripcion": "Establecimiento que vende café y bebidas calientes con alimentos ligeros",
+    "keywords": ["café", "cafetería", "coffee", "cappuccino", "espresso", "café de especialidad", "americano", "latte"]
+  },
+  {
+    "id": 2,
+    "nombre": "Fonda / Comida Corrida",
+    "scian": "722514",
+    "impacto": "bajo",
+    "formato_siapem": "EM-03",
+    "articulo_lem": "Art. 35",
+    "descripcion": "Local que ofrece menú del día de comida casera a precios económicos, sin venta de alcohol",
+    "keywords": ["fonda", "comida corrida", "menú del día", "comida casera", "almuerzo", "lonchería", "cocina económica"]
+  },
+  {
+    "id": 3,
+    "nombre": "Tienda de Abarrotes",
+    "scian": "461110",
+    "impacto": "bajo",
+    "formato_siapem": "EM-03",
+    "articulo_lem": "Art. 35",
+    "descripcion": "Tienda de conveniencia que vende alimentos básicos, bebidas y artículos de primera necesidad",
+    "keywords": ["abarrotes", "tienda", "miscelánea", "minisuper", "conveniencia", "mini super", "tendejón", "changarro"]
+  },
+  {
+    "id": 4,
+    "nombre": "Papelería",
+    "scian": "453210",
+    "impacto": "bajo",
+    "formato_siapem": "EM-03",
+    "articulo_lem": "Art. 35",
+    "descripcion": "Venta de artículos de papelería, útiles escolares y de oficina",
+    "keywords": ["papelería", "útiles", "escolar", "copias", "impresiones", "librería de papelería", "artículos de oficina"]
+  },
+  {
+    "id": 5,
+    "nombre": "Estética / Salón de Belleza",
+    "scian": "812110",
+    "impacto": "bajo",
+    "formato_siapem": "EM-03",
+    "articulo_lem": "Art. 35",
+    "descripcion": "Servicios de corte de cabello, coloración, peinado y tratamientos capilares",
+    "keywords": ["estética", "salón de belleza", "peluquería", "corte de cabello", "tinte", "peinado", "extensiones", "keratina", "belleza"]
+  },
+  {
+    "id": 6,
+    "nombre": "Barbería",
+    "scian": "812111",
+    "impacto": "bajo",
+    "formato_siapem": "EM-03",
+    "articulo_lem": "Art. 35",
+    "descripcion": "Servicios de corte de cabello masculino, afeitado y arreglo de barba",
+    "keywords": ["barbería", "barber", "corte hombre", "afeitado", "barba", "fade", "degradado", "barber shop"]
+  },
+  {
+    "id": 7,
+    "nombre": "Florería",
+    "scian": "453110",
+    "impacto": "bajo",
+    "formato_siapem": "EM-03",
+    "articulo_lem": "Art. 35",
+    "descripcion": "Venta de flores naturales, plantas ornamentales y arreglos florales",
+    "keywords": ["florería", "floristería", "flores", "plantas", "arreglos florales", "ramos", "bouquet", "jardinería"]
+  },
+  {
+    "id": 8,
+    "nombre": "Farmacia / Botica",
+    "scian": "464111",
+    "impacto": "bajo",
+    "formato_siapem": "EM-03",
+    "articulo_lem": "Art. 35",
+    "descripcion": "Expendio de medicamentos, suplementos y artículos de higiene personal",
+    "keywords": ["farmacia", "botica", "medicamentos", "medicinas", "suplementos", "vitaminas", "droguería", "pharmacy"]
+  },
+  {
+    "id": 9,
+    "nombre": "Lavandería",
+    "scian": "812310",
+    "impacto": "bajo",
+    "formato_siapem": "EM-03",
+    "articulo_lem": "Art. 35",
+    "descripcion": "Servicios de lavado y secado de ropa por pieza o a granel",
+    "keywords": ["lavandería", "laundry", "lavado de ropa", "autoservicio", "lavado por kilo", "secado"]
+  },
+  {
+    "id": 10,
+    "nombre": "Tintorería",
+    "scian": "812320",
+    "impacto": "bajo",
+    "formato_siapem": "EM-03",
+    "articulo_lem": "Art. 35",
+    "descripcion": "Servicio de limpieza en seco y planchado de prendas delicadas",
+    "keywords": ["tintorería", "dry cleaning", "limpieza en seco", "planchado", "ropa delicada", "trajes"]
+  },
+  {
+    "id": 11,
+    "nombre": "Ferretería",
+    "scian": "467111",
+    "impacto": "bajo",
+    "formato_siapem": "EM-03",
+    "articulo_lem": "Art. 35",
+    "descripcion": "Venta de herramientas, materiales de construcción y artículos para el hogar",
+    "keywords": ["ferretería", "herramientas", "materiales", "construcción", "tornillos", "pintura", "plomería", "hardware"]
+  },
+  {
+    "id": 12,
+    "nombre": "Tortillería",
+    "scian": "311830",
+    "impacto": "bajo",
+    "formato_siapem": "EM-03",
+    "articulo_lem": "Art. 35",
+    "descripcion": "Producción y venta de tortillas de maíz o harina al menudeo",
+    "keywords": ["tortillería", "tortillas", "maíz", "tortilla de harina", "tostadas", "totopos"]
+  },
+  {
+    "id": 13,
+    "nombre": "Carnicería / Pollería",
+    "scian": "461130",
+    "impacto": "bajo",
+    "formato_siapem": "EM-03",
+    "articulo_lem": "Art. 35",
+    "descripcion": "Venta de carne de res, cerdo, pollo y otros productos cárnicos al menudeo",
+    "keywords": ["carnicería", "pollería", "carne", "pollo", "res", "cerdo", "chorizo", "embutidos", "carnes frías"]
+  },
+  {
+    "id": 14,
+    "nombre": "Frutería / Verdulería",
+    "scian": "461150",
+    "impacto": "bajo",
+    "formato_siapem": "EM-03",
+    "articulo_lem": "Art. 35",
+    "descripcion": "Venta de frutas, verduras y hortalizas frescas al menudeo",
+    "keywords": ["frutería", "verdulería", "frutas", "verduras", "mercado", "hortalizas", "orgánico"]
+  },
+  {
+    "id": 15,
+    "nombre": "Panadería",
+    "scian": "311811",
+    "impacto": "bajo",
+    "formato_siapem": "EM-03",
+    "articulo_lem": "Art. 35",
+    "descripcion": "Elaboración y venta de pan dulce, pan de caja y productos de trigo horneados",
+    "keywords": ["panadería", "pan", "pan dulce", "bollería", "conchas", "cuernos", "teleras", "bolillos", "baguette"]
+  },
+  {
+    "id": 16,
+    "nombre": "Pastelería",
+    "scian": "311812",
+    "impacto": "bajo",
+    "formato_siapem": "EM-03",
+    "articulo_lem": "Art. 35",
+    "descripcion": "Elaboración y venta de pasteles, cupcakes, postres y repostería fina",
+    "keywords": ["pastelería", "pasteles", "repostería", "cupcakes", "postres", "tartas", "cake", "wedding cake", "torta"]
+  },
+  {
+    "id": 17,
+    "nombre": "Librería",
+    "scian": "451211",
+    "impacto": "bajo",
+    "formato_siapem": "EM-03",
+    "articulo_lem": "Art. 35",
+    "descripcion": "Venta de libros nuevos, revistas, cómics y material de lectura",
+    "keywords": ["librería", "libros", "bookstore", "novelas", "revistas", "comics", "cómics", "literatura", "libros usados"]
+  },
+  {
+    "id": 18,
+    "nombre": "Boutique / Tienda de Ropa",
+    "scian": "461411",
+    "impacto": "bajo",
+    "formato_siapem": "EM-03",
+    "articulo_lem": "Art. 35",
+    "descripcion": "Venta de ropa y accesorios de moda para dama, caballero o niños",
+    "keywords": ["boutique", "ropa", "moda", "fashion", "tienda de ropa", "vestimenta", "accesorios", "ropa de diseñador"]
+  },
+  {
+    "id": 19,
+    "nombre": "Zapatería",
+    "scian": "461414",
+    "impacto": "bajo",
+    "formato_siapem": "EM-03",
+    "articulo_lem": "Art. 35",
+    "descripcion": "Venta de calzado para dama, caballero y niños",
+    "keywords": ["zapatería", "zapatos", "calzado", "tenis", "botas", "sandalias", "shoe store"]
+  },
+  {
+    "id": 20,
+    "nombre": "Mueblería",
+    "scian": "461510",
+    "impacto": "bajo",
+    "formato_siapem": "EM-03",
+    "articulo_lem": "Art. 35",
+    "descripcion": "Venta de muebles para el hogar y la oficina",
+    "keywords": ["mueblería", "muebles", "furniture", "sofás", "recámaras", "comedores", "salas", "decoración"]
+  },
+  {
+    "id": 21,
+    "nombre": "Taller de Reparación Electrónica",
+    "scian": "811211",
+    "impacto": "bajo",
+    "formato_siapem": "EM-03",
+    "articulo_lem": "Art. 35",
+    "descripcion": "Reparación de celulares, computadoras, televisiones y electrodomésticos",
+    "keywords": ["taller", "reparación", "celulares", "computadoras", "electrónica", "smartphones", "laptops", "técnico"]
+  },
+  {
+    "id": 22,
+    "nombre": "Copistería / Imprenta",
+    "scian": "323111",
+    "impacto": "bajo",
+    "formato_siapem": "EM-03",
+    "articulo_lem": "Art. 35",
+    "descripcion": "Servicios de fotocopiado, impresión, escaneo y encuadernación",
+    "keywords": ["copistería", "imprenta", "copias", "impresiones", "escaneo", "anillado", "laminado", "fotocopiado"]
+  },
+  {
+    "id": 23,
+    "nombre": "Oficina / Consultorio Simple",
+    "scian": "561110",
+    "impacto": "bajo",
+    "formato_siapem": "EM-03",
+    "articulo_lem": "Art. 35",
+    "descripcion": "Oficina administrativa, despacho profesional o consultorio con hasta 3 consultorios",
+    "keywords": ["oficina", "consultorio", "despacho", "administración", "notaría", "bufete", "agencia"]
+  },
+  {
+    "id": 24,
+    "nombre": "Estudio de Fotografía",
+    "scian": "541921",
+    "impacto": "bajo",
+    "formato_siapem": "EM-03",
+    "articulo_lem": "Art. 35",
+    "descripcion": "Servicios de fotografía profesional, estudio de retrato y revelado digital",
+    "keywords": ["fotografía", "estudio", "fotógrafo", "retratos", "fotografía profesional", "eventos", "boda", "quinceañera"]
+  },
+  {
+    "id": 25,
+    "nombre": "Agencia de Viajes",
+    "scian": "561510",
+    "impacto": "bajo",
+    "formato_siapem": "EM-03",
+    "articulo_lem": "Art. 35",
+    "descripcion": "Venta de boletos de avión, paquetes turísticos y reservaciones de hotel",
+    "keywords": ["agencia de viajes", "turismo", "vuelos", "paquetes", "tours", "reservaciones", "travel agency"]
+  },
+  {
+    "id": 26,
+    "nombre": "Veterinaria (sin internamiento)",
+    "scian": "541940",
+    "impacto": "bajo",
+    "formato_siapem": "EM-03",
+    "articulo_lem": "Art. 35",
+    "descripcion": "Consulta veterinaria, venta de alimentos y accesorios para mascotas, sin hospitalización",
+    "keywords": ["veterinaria", "veterinario", "mascotas", "animales", "perros", "gatos", "pet shop", "alimento para mascotas"]
+  },
+  {
+    "id": 27,
+    "nombre": "Joyería",
+    "scian": "446130",
+    "impacto": "bajo",
+    "formato_siapem": "EM-03",
+    "articulo_lem": "Art. 35",
+    "descripcion": "Venta de joyería fina, bisutería, relojes y artículos de regalo",
+    "keywords": ["joyería", "joyas", "bisutería", "relojes", "pulseras", "anillos", "collares", "plata", "oro"]
+  },
+  {
+    "id": 28,
+    "nombre": "Óptica",
+    "scian": "446130",
+    "impacto": "bajo",
+    "formato_siapem": "EM-03",
+    "articulo_lem": "Art. 35",
+    "descripcion": "Venta de lentes graduados, de sol y armazones, con o sin examen de la vista",
+    "keywords": ["óptica", "lentes", "anteojos", "armazones", "lentes de contacto", "examen de vista", "oftalmología"]
+  },
+  {
+    "id": 29,
+    "nombre": "Mini Súper",
+    "scian": "461110",
+    "impacto": "bajo",
+    "formato_siapem": "EM-03",
+    "articulo_lem": "Art. 35",
+    "descripcion": "Tienda de conveniencia de mayor tamaño que abarrotes, con variedad de productos",
+    "keywords": ["mini súper", "minisuper", "supermarket", "super", "conveniencia", "seven eleven", "oxxo", "tienda 24 horas"]
+  },
+  {
+    "id": 30,
+    "nombre": "Restaurante (sin alcohol o con alcohol como complemento)",
+    "scian": "722511",
+    "impacto": "vecinal",
+    "formato_siapem": "EM-11",
+    "articulo_lem": "Art. 19",
+    "descripcion": "Establecimiento de comida con servicio de mesa; alcohol solo como complemento de alimentos",
+    "keywords": ["restaurante", "restaurant", "comida", "gastronómico", "bistro", "brunch", "cena", "mariscos", "sushi", "tacos"]
+  },
+  {
+    "id": 31,
+    "nombre": "Salón de Fiestas / Banquetes",
+    "scian": "722320",
+    "impacto": "vecinal",
+    "formato_siapem": "EM-11",
+    "articulo_lem": "Art. 19",
+    "descripcion": "Local para celebraciones, bodas, quinceañeras, eventos corporativos y sociales",
+    "keywords": ["salón de fiestas", "banquetes", "eventos", "bodas", "quinceañeras", "cumpleaños", "convenciones", "auditorio"]
+  },
+  {
+    "id": 32,
+    "nombre": "Hotel / Hostal",
+    "scian": "721111",
+    "impacto": "vecinal",
+    "formato_siapem": "EM-11",
+    "articulo_lem": "Art. 19",
+    "descripcion": "Servicio de hospedaje temporal con recepción, habitaciones y áreas comunes",
+    "keywords": ["hotel", "hostal", "hospedaje", "motel", "bed and breakfast", "b&b", "alojamiento", "airbnb", "posada"]
+  },
+  {
+    "id": 33,
+    "nombre": "Motel",
+    "scian": "721112",
+    "impacto": "vecinal",
+    "formato_siapem": "EM-11",
+    "articulo_lem": "Art. 19",
+    "descripcion": "Servicio de hospedaje por horas o noche con acceso vehicular directo a las habitaciones",
+    "keywords": ["motel", "hotel de paso", "hospedaje por horas", "garaje hotel"]
+  },
+  {
+    "id": 34,
+    "nombre": "Cinema / Autocinema",
+    "scian": "512131",
+    "impacto": "vecinal",
+    "formato_siapem": "EM-11",
+    "articulo_lem": "Art. 19",
+    "descripcion": "Exhibición de películas cinematográficas al público en salas o formato drive-in",
+    "keywords": ["cine", "cinema", "autocinema", "películas", "movie theater", "sala", "multiplex", "cinemex", "cinépolis"]
+  },
+  {
+    "id": 35,
+    "nombre": "Teatro / Auditorio",
+    "scian": "711110",
+    "impacto": "vecinal",
+    "formato_siapem": "EM-11",
+    "articulo_lem": "Art. 19",
+    "descripcion": "Espacio para presentaciones teatrales, conciertos, conferencias y eventos culturales",
+    "keywords": ["teatro", "auditorio", "foro", "escenario", "conciertos", "obra de teatro", "stand up", "comedia"]
+  },
+  {
+    "id": 36,
+    "nombre": "Gimnasio / Crossfit",
+    "scian": "713940",
+    "impacto": "vecinal",
+    "formato_siapem": "EM-11",
+    "articulo_lem": "Art. 19",
+    "descripcion": "Instalaciones para ejercicio físico con equipo, clases grupales y entrenamiento",
+    "keywords": ["gimnasio", "gym", "crossfit", "fitness", "ejercicio", "box", "funcional", "musculación", "spinning", "yoga studio"]
+  },
+  {
+    "id": 37,
+    "nombre": "Spa / Centro de Bienestar",
+    "scian": "812199",
+    "impacto": "vecinal",
+    "formato_siapem": "EM-11",
+    "articulo_lem": "Art. 19",
+    "descripcion": "Servicios de masajes, tratamientos corporales, faciales y bienestar integral",
+    "keywords": ["spa", "masajes", "bienestar", "relajación", "faciales", "tratamientos", "wellness", "aromaterapia", "sauna"]
+  },
+  {
+    "id": 38,
+    "nombre": "Clínica / Consultorio Médico (+3 consultorios)",
+    "scian": "621111",
+    "impacto": "vecinal",
+    "formato_siapem": "EM-11",
+    "articulo_lem": "Art. 19",
+    "descripcion": "Establecimiento médico con más de 3 consultorios o área de urgencias",
+    "keywords": ["clínica", "consultorio", "médico", "doctor", "urgencias", "especialista", "laboratorio", "radiología", "dentista"]
+  },
+  {
+    "id": 39,
+    "nombre": "Academia de Baile / Música",
+    "scian": "611610",
+    "impacto": "vecinal",
+    "formato_siapem": "EM-11",
+    "articulo_lem": "Art. 19",
+    "descripcion": "Clases de baile, música, canto u otras artes escénicas con grupos o instructores",
+    "keywords": ["academia", "baile", "música", "danza", "salsa", "ballet", "guitarra", "piano", "canto", "clases"]
+  },
+  {
+    "id": 40,
+    "nombre": "Club Privado",
+    "scian": "713910",
+    "impacto": "vecinal",
+    "formato_siapem": "EM-11",
+    "articulo_lem": "Art. 19",
+    "descripcion": "Club social o deportivo con membresías, instalaciones exclusivas para socios",
+    "keywords": ["club", "club privado", "club deportivo", "club social", "golf", "tenis", "country club", "membresía"]
+  },
+  {
+    "id": 41,
+    "nombre": "Cantina con Alimentos (venta de alcohol como complemento)",
+    "scian": "722411",
+    "impacto": "vecinal",
+    "formato_siapem": "EM-11",
+    "articulo_lem": "Art. 19",
+    "descripcion": "Cantina que ofrece alimentos como servicio principal con venta de bebidas alcohólicas complementaria",
+    "keywords": ["cantina", "cantina familiar", "botanas", "cerveza", "pulque", "mezcal", "antojitos", "cantina mexicana"]
+  },
+  {
+    "id": 42,
+    "nombre": "Pizzería con Alcohol",
+    "scian": "722513",
+    "impacto": "vecinal",
+    "formato_siapem": "EM-11",
+    "articulo_lem": "Art. 19",
+    "descripcion": "Pizzería con servicio de mesa que ofrece cerveza o vino como complemento",
+    "keywords": ["pizzería", "pizza", "pasta", "italiana", "cerveza", "vino", "pizza con cerveza", "trattoria"]
+  },
+  {
+    "id": 43,
+    "nombre": "Marisquería con Alcohol",
+    "scian": "722512",
+    "impacto": "vecinal",
+    "formato_siapem": "EM-11",
+    "articulo_lem": "Art. 19",
+    "descripcion": "Marisquería o cevichería con venta de cerveza y cocteles como complemento",
+    "keywords": ["marisquería", "mariscos", "ceviche", "ostiones", "camarones", "cerveza", "michelada", "margarita", "pescados"]
+  },
+  {
+    "id": 44,
+    "nombre": "Billar",
+    "scian": "713990",
+    "impacto": "vecinal",
+    "formato_siapem": "EM-11",
+    "articulo_lem": "Art. 19",
+    "descripcion": "Salón de billar, snooker o pool con posibilidad de venta de bebidas no alcohólicas",
+    "keywords": ["billar", "pool", "snooker", "mesas de billar", "sala de billar", "juego de billar"]
+  },
+  {
+    "id": 45,
+    "nombre": "Boliche",
+    "scian": "713950",
+    "impacto": "vecinal",
+    "formato_siapem": "EM-11",
+    "articulo_lem": "Art. 19",
+    "descripcion": "Sala de boliche o bowling con pistas, zapatos de renta y área de snacks",
+    "keywords": ["boliche", "bowling", "pistas", "bolos", "bowling alley"]
+  },
+  {
+    "id": 46,
+    "nombre": "Bar",
+    "scian": "722412",
+    "impacto": "zonal",
+    "formato_siapem": "EM-08",
+    "articulo_lem": "Art. 27 Bis",
+    "descripcion": "Establecimiento cuyo giro principal es la venta de bebidas alcohólicas con o sin alimentos",
+    "keywords": ["bar", "pub", "cantina", "bebidas", "alcohol", "cocteles", "cerveza", "tragos", "shots", "mezcal bar", "tequila"]
+  },
+  {
+    "id": 47,
+    "nombre": "Cantina (alcohol como giro principal)",
+    "scian": "722412",
+    "impacto": "zonal",
+    "formato_siapem": "EM-08",
+    "articulo_lem": "Art. 27 Bis",
+    "descripcion": "Cantina tradicional donde la venta de alcohol es el giro principal del negocio",
+    "keywords": ["cantina", "pulquería", "mezcalería", "tequilería", "cantina tradicional", "bebidas", "alcohol principal"]
+  },
+  {
+    "id": 48,
+    "nombre": "Antro / Discoteca",
+    "scian": "713120",
+    "impacto": "zonal",
+    "formato_siapem": "EM-08",
+    "articulo_lem": "Art. 27 Bis",
+    "descripcion": "Centro de entretenimiento nocturno con música, pista de baile y venta de alcohol",
+    "keywords": ["antro", "discoteca", "night club", "table dance", "disco", "club nocturno", "pista de baile", "reggaeton", "electrónica"]
+  },
+  {
+    "id": 49,
+    "nombre": "Casino / Salón de Apuestas",
+    "scian": "713210",
+    "impacto": "zonal",
+    "formato_siapem": "EM-08",
+    "articulo_lem": "Art. 27 Bis",
+    "descripcion": "Establecimiento de juegos de azar, apuestas deportivas y entretenimiento con máquinas tragamonedas",
+    "keywords": ["casino", "apuestas", "tragamonedas", "ruleta", "póker", "blackjack", "bingo", "sportbook", "apuestas deportivas"]
+  },
+  {
+    "id": 50,
+    "nombre": "Cabaret",
+    "scian": "711120",
+    "impacto": "zonal",
+    "formato_siapem": "EM-08",
+    "articulo_lem": "Art. 27 Bis",
+    "descripcion": "Establecimiento de entretenimiento con shows artísticos, alcohol y pista de baile",
+    "keywords": ["cabaret", "show", "entretenimiento adulto", "variedades", "espectáculo", "table dance"]
+  },
+  {
+    "id": 51,
+    "nombre": "Peña / Chelería / Cervecería",
+    "scian": "722412",
+    "impacto": "zonal",
+    "formato_siapem": "EM-08",
+    "articulo_lem": "Art. 27 Bis",
+    "descripcion": "Establecimiento especializado en cerveza artesanal o de importación con música en vivo",
+    "keywords": ["chelería", "cervecería", "craft beer", "cerveza artesanal", "peña", "taproom", "brewpub", "microcervecería"]
+  },
+  {
+    "id": 52,
+    "nombre": "Estadio / Arena",
+    "scian": "711211",
+    "impacto": "zonal",
+    "formato_siapem": "EM-08",
+    "articulo_lem": "Art. 27 Bis",
+    "descripcion": "Recinto deportivo o de espectáculos masivos con aforo mayor a 2,000 personas",
+    "keywords": ["estadio", "arena", "foro", "palenque", "recinto deportivo", "fútbol", "box", "lucha libre", "conciertos masivos"]
+  },
+  {
+    "id": 53,
+    "nombre": "Salón de Baile",
+    "scian": "713990",
+    "impacto": "zonal",
+    "formato_siapem": "EM-08",
+    "articulo_lem": "Art. 27 Bis",
+    "descripcion": "Salón donde se baila música en vivo o grabada con venta de alcohol",
+    "keywords": ["salón de baile", "danzón", "salsa", "cumbia", "baile popular", "verbena", "fandango"]
+  },
+  {
+    "id": 54,
+    "nombre": "Night Club",
+    "scian": "713120",
+    "impacto": "zonal",
+    "formato_siapem": "EM-08",
+    "articulo_lem": "Art. 27 Bis",
+    "descripcion": "Club nocturno con shows, alcohol, pista de baile y entretenimiento para adultos",
+    "keywords": ["night club", "club nocturno", "nightclub", "entretenimiento nocturno", "show bar"]
+  },
+  {
+    "id": 55,
+    "nombre": "Pulquería",
+    "scian": "722412",
+    "impacto": "zonal",
+    "formato_siapem": "EM-08",
+    "articulo_lem": "Art. 27 Bis",
+    "descripcion": "Establecimiento tradicional mexicano especializado en la venta de pulque curado o natural",
+    "keywords": ["pulquería", "pulque", "curado", "pulque natural", "cantina pulquera", "tlachique", "mexcalpulque"]
+  },
+  {
+    "id": 56,
+    "nombre": "Establecimiento de Entretenimiento para Adultos",
+    "scian": "713990",
+    "impacto": "zonal",
+    "formato_siapem": "EM-08",
+    "articulo_lem": "Art. 27 Bis",
+    "descripcion": "Establecimiento de entretenimiento para adultos con venta de alcohol",
+    "keywords": ["entretenimiento adultos", "table dance", "gentlemen's club", "adultos", "strippers"]
+  }
+]

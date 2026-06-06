@@ -1,0 +1,315 @@
+{
+  "bajo": {
+    "descripcion": "Aviso de Funcionamiento EM-03 — Bajo Impacto (Art. 35 LEM)",
+    "tiempo_total": "5-20 días hábiles",
+    "costo_total": "~$1,520 MXN (solo CUS SEDUVI)",
+    "nota_general": "Para establecimientos de bajo impacto, el Aviso de Funcionamiento es inmediato al registrarse en SIAPEM. El único costo significativo es el Certificado Único de Zonificación de SEDUVI.",
+    "fases": {
+      "fase0": {
+        "nombre": "Preparación",
+        "descripcion": "Verifica antes de iniciar",
+        "pasos": [
+          {
+            "paso": 0,
+            "nombre": "Verificar Uso de Suelo",
+            "descripcion": "Antes de firmar contrato, verifica que el giro sea compatible con el uso de suelo de la dirección del local. Puedes consultar en la app SEDUVI o directamente en la ventanilla.",
+            "link": "https://www.seduvi.cdmx.gob.mx/servicios/servicio/consulta-de-uso-de-suelo",
+            "costo": "$0",
+            "plazo": "Inmediato (en línea)",
+            "obligatorio": false
+          }
+        ]
+      },
+      "fase1": {
+        "nombre": "Documentos Base",
+        "descripcion": "Trámites obligatorios para todos los niveles de impacto",
+        "pasos": [
+          {
+            "paso": 1,
+            "nombre": "Cuenta Llave CDMX",
+            "descripcion": "Crear o verificar acceso a la plataforma Llave CDMX. Requerido para todos los trámites digitales en la Ciudad de México. Si ya tienes cuenta, verifica que esté activa y con datos actualizados.",
+            "link": "https://llave.cdmx.gob.mx",
+            "costo": "$0",
+            "plazo": "Inmediato",
+            "obligatorio": true
+          },
+          {
+            "paso": 2,
+            "nombre": "Certificado Único de Zonificación de Uso de Suelo (CUS SEDUVI)",
+            "descripcion": "Vigencia máxima 1 año. Confirma que tu giro está permitido en esa dirección específica. Es el documento más importante antes de firmar cualquier contrato de arrendamiento.",
+            "link": "http://certificadodigital.cdmx.gob.mx:8080/CertificadoDigital/certificado/solicitaCertificado",
+            "link_info": "https://www.cdmx.gob.mx/public/InformacionTramite.xhtml?idTramite=806",
+            "costo": "~$1,520 MXN",
+            "plazo": "5-15 días hábiles",
+            "obligatorio": true
+          },
+          {
+            "paso": 3,
+            "nombre": "Programa Interno de Protección Civil (CONDICIONAL)",
+            "descripcion": "Obligatorio si el local tiene aforo mayor o igual a 100 personas O más de 250 m². Los establecimientos menores están exentos. Fundamento: Art. 10, Ap. A, Fr. X, LEM.",
+            "link": "https://www.proteccioncivil.cdmx.gob.mx/",
+            "costo": "Variable (empresa certificadora privada, aprox. $3,000–$15,000 MXN)",
+            "plazo": "10-30 días hábiles",
+            "obligatorio": "condicional — solo si aforo >= 100 ó m2 > 250",
+            "condicion": "aforo >= 100 OR m2 > 250",
+            "fundamento": "Art. 10, Ap. A, Fr. X, LEM"
+          }
+        ]
+      },
+      "fase2": {
+        "nombre": "Pre-requisitos adicionales",
+        "descripcion": "No aplica para establecimientos de bajo impacto",
+        "pasos": []
+      },
+      "fase3": {
+        "nombre": "Registro SIAPEM — Aviso de Funcionamiento",
+        "formato": "EM-03",
+        "link": "https://siapem.cdmx.gob.mx",
+        "costo": "$0",
+        "plazo": "Inmediato al registrar",
+        "descripcion": "El Aviso de Funcionamiento EM-03 se genera automáticamente al completar el registro en SIAPEM. No requiere pago ni aprobación.",
+        "pasos": [
+          "1. Ingresar a SIAPEM con Llave CDMX",
+          "2. Ir a 'Mis negocios' → 'Dar de alta nuevo negocio'",
+          "3. Seleccionar tipo de persona (Física o Moral)",
+          "4. Dar de alta información del negocio (nombre, RFC, domicilio)",
+          "5. Ir a 'Mis trámites' → 'Registrar nuevo trámite'",
+          "6. Seleccionar el negocio dado de alta",
+          "7. Seleccionar formato: EM-03 Aviso de Funcionamiento de Bajo Impacto",
+          "8. Registrar información solicitada (giro, m², datos del local)",
+          "9. Adjuntar CUS SEDUVI vigente",
+          "10. Descargar Acuse e imprimir ✅ — Ya puedes operar"
+        ]
+      }
+    }
+  },
+  "vecinal": {
+    "descripcion": "Aviso de Funcionamiento EM-11 — Impacto Vecinal (Art. 19 LEM)",
+    "tiempo_total": "10-30 días hábiles",
+    "costo_total": "~$1,520 MXN (CUS) + derechos Art. 191 Fr. I CFCDMX",
+    "nota_general": "Los establecimientos de impacto vecinal requieren constancias de no adeudo del inmueble antes de poder registrar el Aviso EM-11 en SIAPEM.",
+    "fases": {
+      "fase0": {
+        "nombre": "Preparación",
+        "descripcion": "Verifica antes de iniciar",
+        "pasos": [
+          {
+            "paso": 0,
+            "nombre": "Verificar Uso de Suelo",
+            "descripcion": "Confirma que el uso de suelo permita giro de impacto vecinal. Muchas zonas habitacionales solo permiten bajo impacto.",
+            "link": "https://www.seduvi.cdmx.gob.mx/servicios/servicio/consulta-de-uso-de-suelo",
+            "costo": "$0",
+            "plazo": "Inmediato (en línea)",
+            "obligatorio": false
+          }
+        ]
+      },
+      "fase1": {
+        "nombre": "Documentos Base",
+        "descripcion": "Trámites obligatorios comunes a todos los niveles",
+        "pasos": [
+          {
+            "paso": 1,
+            "nombre": "Cuenta Llave CDMX",
+            "descripcion": "Crear o verificar acceso a la plataforma Llave CDMX. Requerido para todos los trámites digitales.",
+            "link": "https://llave.cdmx.gob.mx",
+            "costo": "$0",
+            "plazo": "Inmediato",
+            "obligatorio": true
+          },
+          {
+            "paso": 2,
+            "nombre": "Certificado Único de Zonificación de Uso de Suelo (CUS SEDUVI)",
+            "descripcion": "Vigencia máxima 1 año. Debe especificar que el uso de suelo permite establecimientos de impacto vecinal.",
+            "link": "http://certificadodigital.cdmx.gob.mx:8080/CertificadoDigital/certificado/solicitaCertificado",
+            "link_info": "https://www.cdmx.gob.mx/public/InformacionTramite.xhtml?idTramite=806",
+            "costo": "~$1,520 MXN",
+            "plazo": "5-15 días hábiles",
+            "obligatorio": true
+          },
+          {
+            "paso": 3,
+            "nombre": "Programa Interno de Protección Civil (CONDICIONAL)",
+            "descripcion": "Obligatorio si aforo >= 100 O m² > 250. Para gimnasios, restaurantes grandes y salones de fiestas suele ser obligatorio.",
+            "link": "https://www.proteccioncivil.cdmx.gob.mx/",
+            "costo": "Variable (~$3,000–$15,000 MXN con empresa certificadora)",
+            "plazo": "10-30 días hábiles",
+            "obligatorio": "condicional — solo si aforo >= 100 ó m2 > 250",
+            "condicion": "aforo >= 100 OR m2 > 250",
+            "fundamento": "Art. 10, Ap. A, Fr. X, LEM"
+          }
+        ]
+      },
+      "fase2": {
+        "nombre": "Pre-requisitos adicionales",
+        "descripcion": "Constancias de no adeudo del inmueble donde operará el establecimiento",
+        "pasos": [
+          {
+            "paso": 4,
+            "nombre": "Constancia de No Adeudo de Predial (Tesorería CDMX)",
+            "descripcion": "Certifica que el inmueble no tiene deudas pendientes de impuesto predial. Se tramita ante la Tesorería de la Ciudad de México. Formato disponible en Finanzas CDMX.",
+            "link": "https://data.finanzas.cdmx.gob.mx/formato_lc",
+            "link_info": "https://www.finanzas.cdmx.gob.mx",
+            "costo": "$0 (gratuito)",
+            "plazo": "1-2 días hábiles (en línea o presencial)",
+            "obligatorio": true
+          },
+          {
+            "paso": 5,
+            "nombre": "Constancia de No Adeudo de Agua (SACMEX)",
+            "descripcion": "Certifica que el inmueble no tiene deudas con el Sistema de Aguas de la Ciudad de México. Se tramita ante SACMEX o en línea.",
+            "link": "https://data.finanzas.cdmx.gob.mx/formato_lc",
+            "link_info": "https://www.sacmex.cdmx.gob.mx",
+            "costo": "$0 (gratuito)",
+            "plazo": "1-2 días hábiles",
+            "obligatorio": true
+          }
+        ]
+      },
+      "fase3": {
+        "nombre": "Registro SIAPEM — Aviso de Funcionamiento",
+        "formato": "EM-11",
+        "link": "https://siapem.cdmx.gob.mx",
+        "costo": "Pago de derechos Art. 191 Fracción I del Código Fiscal CDMX",
+        "plazo": "1-3 días hábiles tras completar pago",
+        "descripcion": "El Aviso de Funcionamiento EM-11 requiere pago de derechos antes de activarse. Se genera en SIAPEM y debe pagarse en banco o línea.",
+        "pasos": [
+          "1. Ingresar a SIAPEM con Llave CDMX",
+          "2. Ir a 'Mis negocios' → 'Dar de alta nuevo negocio'",
+          "3. Seleccionar tipo de persona (Física o Moral)",
+          "4. Dar de alta información del negocio",
+          "5. Ir a 'Mis trámites' → 'Registrar nuevo trámite'",
+          "6. Seleccionar el negocio dado de alta",
+          "7. Seleccionar formato: EM-11 Aviso de Funcionamiento de Impacto Vecinal",
+          "8. Adjuntar: CUS SEDUVI + Constancia no adeudo predial + Constancia no adeudo agua",
+          "9. Generar línea de captura para pago de derechos (Art. 191 Fr. I CFCDMX)",
+          "10. Pagar en banco, OXXO o en línea",
+          "11. Subir comprobante de pago",
+          "12. Esperar validación del sistema (1-3 días hábiles)",
+          "13. Descargar Acuse EM-11 ✅ — Ya puedes operar"
+        ]
+      }
+    }
+  },
+  "zonal": {
+    "descripcion": "Solicitud de Permiso EM-08 — Impacto Zonal (Art. 27 Bis LEM)",
+    "tiempo_total": "45-75 días hábiles",
+    "costo_total": "~$1,520 MXN (CUS) + derechos Art. 191 Fr. II CFCDMX + costos adicionales",
+    "nota_general": "IMPORTANTE: El EM-08 NO es un 'Aviso' sino una 'Solicitud de Permiso'. Requiere autorización EXPRESA de la Alcaldía correspondiente y puede ser negada. El tiempo estimado incluye el proceso de revisión y autorización por parte de la Alcaldía (15-45 días hábiles adicionales tras presentar la solicitud). Este trámite aplica a bares, cantinas, antros, discotecas, casinos y similares.",
+    "advertencia": "⚠️ El permiso EM-08 puede ser NEGADO por la Alcaldía si existe oposición vecinal, si la zona no es compatible, o si ya existe saturación de establecimientos similares en el área. Se recomienda verificar el uso de suelo y consultar con la Alcaldía ANTES de firmar contrato de arrendamiento.",
+    "fases": {
+      "fase0": {
+        "nombre": "Preparación",
+        "descripcion": "Verifica antes de iniciar — especialmente crítico para impacto zonal",
+        "pasos": [
+          {
+            "paso": 0,
+            "nombre": "Consulta Previa con la Alcaldía",
+            "descripcion": "Antes de iniciar cualquier trámite, visita la ventanilla de la Alcaldía para consultar si otorgan permisos para tu giro en la zona. Algunos giros tienen restricciones por proximidad a escuelas, iglesias o zonas residenciales.",
+            "link": "https://www.cdmx.gob.mx/gobierno/alcaldias",
+            "costo": "$0",
+            "plazo": "1-3 días hábiles",
+            "obligatorio": false
+          },
+          {
+            "paso": 0,
+            "nombre": "Verificar Uso de Suelo (impacto zonal)",
+            "descripcion": "Solo zonas comerciales o industriales permiten establecimientos de impacto zonal. Las zonas mixtas y habitacionales generalmente no los permiten.",
+            "link": "https://www.seduvi.cdmx.gob.mx/servicios/servicio/consulta-de-uso-de-suelo",
+            "costo": "$0",
+            "plazo": "Inmediato (en línea)",
+            "obligatorio": false
+          }
+        ]
+      },
+      "fase1": {
+        "nombre": "Documentos Base",
+        "descripcion": "Trámites obligatorios comunes a todos los niveles",
+        "pasos": [
+          {
+            "paso": 1,
+            "nombre": "Cuenta Llave CDMX",
+            "descripcion": "Crear o verificar acceso a la plataforma Llave CDMX.",
+            "link": "https://llave.cdmx.gob.mx",
+            "costo": "$0",
+            "plazo": "Inmediato",
+            "obligatorio": true
+          },
+          {
+            "paso": 2,
+            "nombre": "Certificado Único de Zonificación de Uso de Suelo (CUS SEDUVI)",
+            "descripcion": "Vigencia máxima 1 año. Debe especificar que el uso de suelo permite establecimientos de impacto zonal. Es la primera señal de si el trámite es viable.",
+            "link": "http://certificadodigital.cdmx.gob.mx:8080/CertificadoDigital/certificado/solicitaCertificado",
+            "link_info": "https://www.cdmx.gob.mx/public/InformacionTramite.xhtml?idTramite=806",
+            "costo": "~$1,520 MXN",
+            "plazo": "5-15 días hábiles",
+            "obligatorio": true
+          },
+          {
+            "paso": 3,
+            "nombre": "Programa Interno de Protección Civil",
+            "descripcion": "Para establecimientos de impacto zonal (bares, antros, etc.) el Programa de Protección Civil es PRÁCTICAMENTE SIEMPRE obligatorio dado el aforo y las características del giro.",
+            "link": "https://www.proteccioncivil.cdmx.gob.mx/",
+            "costo": "Variable (~$5,000–$25,000 MXN con empresa certificadora)",
+            "plazo": "10-30 días hábiles",
+            "obligatorio": "condicional — casi siempre obligatorio para giros zonales",
+            "condicion": "aforo >= 100 OR m2 > 250",
+            "fundamento": "Art. 10, Ap. A, Fr. X, LEM"
+          }
+        ]
+      },
+      "fase2": {
+        "nombre": "Pre-requisitos adicionales",
+        "descripcion": "Constancias de no adeudo del inmueble — obligatorias para impacto zonal",
+        "pasos": [
+          {
+            "paso": 4,
+            "nombre": "Constancia de No Adeudo de Predial (Tesorería CDMX)",
+            "descripcion": "Certifica que el inmueble no tiene deudas de impuesto predial. Imprescindible para impacto zonal.",
+            "link": "https://data.finanzas.cdmx.gob.mx/formato_lc",
+            "link_info": "https://www.finanzas.cdmx.gob.mx",
+            "costo": "$0 (gratuito)",
+            "plazo": "1-2 días hábiles",
+            "obligatorio": true
+          },
+          {
+            "paso": 5,
+            "nombre": "Constancia de No Adeudo de Agua (SACMEX)",
+            "descripcion": "Certifica que el inmueble no tiene deudas con el Sistema de Aguas de la CDMX.",
+            "link": "https://data.finanzas.cdmx.gob.mx/formato_lc",
+            "link_info": "https://www.sacmex.cdmx.gob.mx",
+            "costo": "$0 (gratuito)",
+            "plazo": "1-2 días hábiles",
+            "obligatorio": true
+          }
+        ]
+      },
+      "fase3": {
+        "nombre": "Registro SIAPEM — Solicitud de Permiso",
+        "formato": "EM-08",
+        "link": "https://siapem.cdmx.gob.mx",
+        "costo": "Pago de derechos Art. 191 Fracción II del Código Fiscal CDMX",
+        "plazo": "15-45 días hábiles (incluye revisión y autorización de la Alcaldía)",
+        "descripcion": "A diferencia del EM-03 y EM-11, el EM-08 es una SOLICITUD DE PERMISO que requiere autorización expresa de la Alcaldía. La Alcaldía tiene hasta 45 días hábiles para responder. Si no responde, se considera NEGATIVA FICTA (NO autorizado).",
+        "advertencia_siapem": "⚠️ La Solicitud de Permiso EM-08 puede ser NEGADA. No invierta en adecuaciones del local hasta tener el permiso en mano.",
+        "pasos": [
+          "1. Ingresar a SIAPEM con Llave CDMX",
+          "2. Ir a 'Mis negocios' → 'Dar de alta nuevo negocio'",
+          "3. Seleccionar tipo de persona (Física o Moral)",
+          "4. Dar de alta información del negocio completa",
+          "5. Ir a 'Mis trámites' → 'Registrar nuevo trámite'",
+          "6. Seleccionar el negocio dado de alta",
+          "7. Seleccionar formato: EM-08 Solicitud de Permiso de Impacto Zonal",
+          "8. Adjuntar: CUS SEDUVI + Constancia no adeudo predial + Constancia no adeudo agua + Programa de Protección Civil (si aplica)",
+          "9. Generar línea de captura para pago de derechos (Art. 191 Fr. II CFCDMX)",
+          "10. Pagar en banco, OXXO o en línea",
+          "11. Subir comprobante de pago",
+          "12. *** ESPERAR AUTORIZACIÓN DE LA ALCALDÍA (15-45 días hábiles) ***",
+          "13. La Alcaldía puede: Autorizar, Negar, o Solicitar información adicional",
+          "14. Si se autoriza: Descargar Permiso EM-08 ✅",
+          "15. Si se niega: Puedes interponer recurso de inconformidad ante la Alcaldía"
+        ]
+      }
+    }
+  }
+}

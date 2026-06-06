@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "nombre": "Impulso CDMX — Capital Semilla",
+    "organismo": "SEDECO (Secretaría de Desarrollo Económico)",
+    "descripcion": "Apoyo económico no reembolsable de hasta $150,000 MXN para emprendedores y microempresarios en etapa inicial con proyectos de alto potencial en la Ciudad de México.",
+    "monto_max": 150000,
+    "tipo": "capital_semilla",
+    "modalidad": "no_reembolsable",
+    "requisitos": [
+      "Ser residente de la CDMX (comprobante de domicilio)",
+      "Proyecto empresarial viable con plan de negocios",
+      "Sin deudas fiscales (constancia del SAT)",
+      "No haber recibido apoyo previo de SEDECO en los últimos 2 años",
+      "Presentar proyecto ante comité evaluador",
+      "Edad mínima: 18 años"
+    ],
+    "link": "https://www.sedeco.cdmx.gob.mx",
+    "aplica_giros": ["todos"],
+    "convocatoria": "Anual, generalmente enero-marzo",
+    "contacto": "sedeco@cdmx.gob.mx"
+  },
+  {
+    "id": 2,
+    "nombre": "FONDESO — Fondo para el Desarrollo Social",
+    "organismo": "FONDESO (Fondo para el Desarrollo Social de la Ciudad de México)",
+    "descripcion": "Créditos empresariales accesibles para micro, pequeños y medianos empresarios de la CDMX. Tasas de interés preferenciales (12-18% anual) con plazos de hasta 36 meses. Especializado en emprendedores que no califican para banca tradicional.",
+    "monto_max": 500000,
+    "tipo": "credito_preferencial",
+    "modalidad": "credito_reembolsable",
+    "tasa_interes": "12-18% anual",
+    "plazo_max_meses": 36,
+    "requisitos": [
+      "Ser residente CDMX",
+      "Negocio en operación mínimo 6 meses (para crédito de crecimiento)",
+      "Para nuevos negocios: plan de negocios + garantía",
+      "Identificación oficial",
+      "Comprobante de domicilio",
+      "Constancia de situación fiscal (SAT)",
+      "Sin buró de crédito negativo severo"
+    ],
+    "link": "https://fondeso.cdmx.gob.mx",
+    "aplica_giros": ["todos"],
+    "convocatoria": "Permanente (todo el año)",
+    "lineas": [
+      "Crédito Individual: hasta $150,000 MXN",
+      "Crédito Grupal: hasta $50,000 MXN por integrante",
+      "Crédito PyME: hasta $500,000 MXN"
+    ]
+  },
+  {
+    "id": 3,
+    "nombre": "Fondo PyME CDMX",
+    "organismo": "SEDECO / Gobierno CDMX",
+    "descripcion": "Apoyo financiero para pequeñas y medianas empresas con proyectos de expansión, modernización tecnológica o apertura de nuevas sucursales en la Ciudad de México.",
+    "monto_max": 1000000,
+    "tipo": "credito_pyme",
+    "modalidad": "credito_reembolsable",
+    "requisitos": [
+      "Empresa legalmente constituida (Acta Constitutiva)",
+      "Mínimo 1 año de operación",
+      "Domicilio fiscal en CDMX",
+      "Estados financieros últimos 2 años",
+      "Declaraciones fiscales al corriente",
+      "Plan de inversión detallado",
+      "Garantía hipotecaria o aval"
+    ],
+    "link": "https://www.sedeco.cdmx.gob.mx",
+    "aplica_giros": ["todos"],
+    "convocatoria": "Semestral"
+  },
+  {
+    "id": 4,
+    "nombre": "Suelo Legal — Descuento de Predial para Negocios",
+    "organismo": "Tesorería CDMX / Secretaría de Finanzas",
+    "descripcion": "Reducción del 15% en el Impuesto Predial para propietarios de inmuebles que regularicen su situación fiscal y catastral. Aplica para locales comerciales propios. Adicionalmente, regularización de adeudos históricos con descuentos de hasta 100% en recargos y multas.",
+    "monto_max": null,
+    "tipo": "beneficio_fiscal",
+    "modalidad": "descuento_predial",
+    "descuento": "15% sobre impuesto predial anual + condonación de recargos",
+    "requisitos": [
+      "Ser propietario del inmueble",
+      "Estar al corriente con declaraciones fiscales",
+      "Tramitar constancia de no adeudo actualizada",
+      "Actualizar datos catastrales si es necesario"
+    ],
+    "link": "https://data.finanzas.cdmx.gob.mx/formato_lc",
+    "aplica_giros": ["propietarios_inmueble"],
+    "convocatoria": "Permanente"
+  },
+  {
+    "id": 5,
+    "nombre": "Compras Públicas SEDECO — Padrón de Proveedores",
+    "organismo": "SEDECO / Contraloría General CDMX",
+    "descripcion": "Programa de vinculación de micro y pequeñas empresas locales con las compras del Gobierno de la Ciudad de México. Las empresas inscritas pueden participar en licitaciones y compras directas del gobierno capitalino.",
+    "monto_max": null,
+    "tipo": "programa_compras_gobierno",
+    "modalidad": "contratacion_publica",
+    "requisitos": [
+      "Empresa o persona física con actividad empresarial",
+      "RFC activo y al corriente de obligaciones fiscales",
+      "Registro en el Padrón de Proveedores del Gobierno CDMX",
+      "Cumplir especificaciones técnicas de los bienes o servicios",
+      "Contar con producto o servicio demandado por gobierno"
+    ],
+    "link": "https://www.sedeco.cdmx.gob.mx",
+    "aplica_giros": ["manufactura", "servicios", "alimentación", "tecnología", "limpieza"],
+    "convocatoria": "Permanente (registro abierto todo el año)"
+  },
+  {
+    "id": 6,
+    "nombre": "Mercados Locales CDMX — Renta de Puestos",
+    "organismo": "Secretaría de Desarrollo Económico (SEDECO)",
+    "descripcion": "Asignación de locales en los 329 mercados públicos de la CDMX a precios de renta muy por debajo del mercado. Ideal para emprendedores de alimentos, artesanías y comercio al menudeo.",
+    "monto_max": null,
+    "tipo": "espacio_comercial",
+    "modalidad": "renta_subsidiada",
+    "costo_renta": "$200-$2,500 MXN/mes según mercado y tamaño",
+    "requisitos": [
+      "Ser residente CDMX",
+      "Actividad económica compatible con el giro del mercado",
+      "Identificación oficial",
+      "Comprobante de domicilio CDMX",
+      "No tener otro local en mercados públicos de CDMX"
+    ],
+    "link": "https://www.sedeco.cdmx.gob.mx",
+    "aplica_giros": ["alimentación", "artesanías", "ropa", "abarrotes", "servicios_básicos"],
+    "convocatoria": "Según disponibilidad por alcaldía"
+  },
+  {
+    "id": 7,
+    "nombre": "Programa Mujeres Empresarias CDMX",
+    "organismo": "SEDECO / Instituto de las Mujeres de la CDMX (Inmujeres CDMX)",
+    "descripcion": "Programa integral de apoyo a mujeres emprendedoras con: capacitación gratuita, créditos preferenciales de hasta $80,000 MXN, mentoría empresarial, y vinculación con compradoras del gobierno. Tasa de interés: 0% para grupos solidarios, 6% crédito individual.",
+    "monto_max": 80000,
+    "tipo": "programa_integral_mujer",
+    "modalidad": "credito_capacitacion_mentoria",
+    "tasa_interes": "0% grupos solidarios / 6% crédito individual",
+    "requisitos": [
+      "Ser mujer mayor de 18 años",
+      "Residente de la CDMX",
+      "Proyecto empresarial o negocio en operación",
+      "Identificación oficial",
+      "Comprobante de domicilio",
+      "Asistir a taller de capacitación empresarial (gratuito)"
+    ],
+    "link": "https://www.sedeco.cdmx.gob.mx",
+    "aplica_giros": ["todos"],
+    "convocatoria": "Permanente con convocatorias trimestrales",
+    "beneficios_adicionales": [
+      "Capacitación gratuita en gestión empresarial",
+      "Acceso a red de mentoría",
+      "Vinculación con ferias y exposiciones",
+      "Asesoría jurídica y contable gratuita"
+    ]
+  },
+  {
+    "id": 8,
+    "nombre": "Financiamiento Verde CDMX",
+    "organismo": "SEDECO / Secretaría de Medio Ambiente CDMX",
+    "descripcion": "Apoyo financiero no reembolsable de hasta $200,000 MXN para empresas que implementen prácticas sustentables: paneles solares, sistemas de captación de agua, compostaje, reducción de plásticos, movilidad eléctrica. Prioritario para restaurantes, hoteles y establecimientos con alto consumo energético.",
+    "monto_max": 200000,
+    "tipo": "financiamiento_sustentable",
+    "modalidad": "no_reembolsable",
+    "requisitos": [
+      "Empresa o negocio establecido en CDMX",
+      "Proyecto de sustentabilidad con impacto medible",
+      "Plan de reducción de huella de carbono",
+      "Proyecto debe reducir consumo energético o agua mínimo 20%",
+      "No tener sanciones ambientales pendientes",
+      "Aportación propia del 30% del proyecto total"
+    ],
+    "link": "https://www.sedeco.cdmx.gob.mx",
+    "aplica_giros": ["restaurantes", "hoteles", "gimnasios", "lavanderías", "manufactura", "todos_los_giros_con_proyecto_verde"],
+    "convocatoria": "Anual, convocatoria generalmente abril-junio",
+    "proyectos_elegibles": [
+      "Instalación de paneles solares",
+      "Sistemas de captación de agua de lluvia",
+      "Cambio a iluminación LED",
+      "Vehículos eléctricos para reparto",
+      "Composta y separación de residuos",
+      "Certificación ambiental"
+    ]
+  },
+  {
+    "id": 9,
+    "nombre": "Centro Promotor de Inversión (CENPROIN)",
+    "organismo": "SEDECO",
+    "descripcion": "Asesoría empresarial gratuita y personalizada para apertura y formalización de negocios en CDMX. Especialistas en trámites SIAPEM, uso de suelo, requisitos legales y fiscales.",
+    "monto_max": 0,
+    "tipo": "asesoria_gratuita",
+    "modalidad": "servicio_gratuito",
+    "requisitos": [
+      "Ninguno. Solo presentarse en horario de atención.",
+      "Traer idea de negocio o proyecto a desarrollar"
+    ],
+    "link": "https://www.sedeco.cdmx.gob.mx/servicios/servicio/centro-promotor-de-inversion-cenproin",
+    "aplica_giros": ["todos"],
+    "convocatoria": "Permanente (lunes a viernes, 9:00-14:30 hrs)",
+    "direccion": "Av. Cuauhtémoc 899, Col. Narvarte, Alcaldía Benito Juárez",
+    "contacto": "dudas.siapem@sedeco.cdmx.gob.mx"
+  },
+  {
+    "id": 10,
+    "nombre": "Red de Incubadoras CDMX",
+    "organismo": "SEDECO / IPN / UNAM / UAM",
+    "descripcion": "Acceso gratuito a incubadoras de negocios de universidades públicas y privadas vinculadas con SEDECO. Incluye asesoría en plan de negocios, prototipado, modelo de negocio Canvas, acceso a laboratorios y talleres, y vinculación con inversionistas ángeles.",
+    "monto_max": 0,
+    "tipo": "incubacion_negocio",
+    "modalidad": "servicio_gratuito",
+    "requisitos": [
+      "Idea de negocio con potencial de escalabilidad",
+      "Disponibilidad para asistir a sesiones (presencial o en línea)",
+      "Plan de negocios básico",
+      "Edad mínima: 18 años"
+    ],
+    "link": "https://www.sedeco.cdmx.gob.mx",
+    "aplica_giros": ["tecnología", "manufactura", "servicios", "food_tech", "salud", "todos"],
+    "convocatoria": "Continua, según disponibilidad de cada incubadora",
+    "duracion_programa": "3-12 meses según tipo de incubadora"
+  }
+]
