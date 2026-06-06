@@ -70,14 +70,17 @@ def index_documents() -> bool:
         print(f"Creando directorio {docs_dir} ...")
         docs_dir.mkdir(parents=True, exist_ok=True)
 
-    # Check for PDFs
+    # Check for PDFs and MDs
     pdf_files = list(docs_dir.glob("*.pdf"))
-    if not pdf_files:
+    md_files = list(docs_dir.glob("*.md"))
+    all_files = pdf_files + md_files
+
+    if not all_files:
         _print_missing_docs_help(docs_dir)
         return False
 
-    print(f"Encontrados {len(pdf_files)} PDF(s) para indexar:")
-    for f in pdf_files:
+    print(f"Encontrados {len(all_files)} archivo(s) para indexar:")
+    for f in all_files:
         print(f"  - {f.name} ({f.stat().st_size // 1024} KB)")
 
     # Validate API key
@@ -114,7 +117,7 @@ def index_documents() -> bool:
     try:
         reader = SimpleDirectoryReader(
             input_dir=str(docs_dir),
-            required_exts=[".pdf"],
+            required_exts=[".pdf", ".md"],
             recursive=False,
         )
         documents = reader.load_data()
@@ -228,7 +231,10 @@ def load_index():
         Settings.embed_model = embed_model
 
         chroma_client = chromadb.PersistentClient(path=str(chroma_dir))
-        chroma_collection = chroma_client.get_or_create_collection("viable_cdmx_docs")
+        # Try both collection names for backwards compatibility
+        existing = [c.name for c in chroma_client.list_collections()]
+        col_name = "viablecdmx" if "viablecdmx" in existing else "viable_cdmx_docs"
+        chroma_collection = chroma_client.get_or_create_collection(col_name)
         vector_store = ChromaVectorStore(chroma_collection=chroma_collection)
         storage_context = StorageContext.from_defaults(vector_store=vector_store)
 
